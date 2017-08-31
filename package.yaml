@@ -1,0 +1,28 @@
+name: haskell-dev-utils
+version: 0.0.1
+category: Development
+synopsis: Utilities for Haskell development.
+stability: alpha
+maintainer: Shao Cheng <astrohavoc@gmail.com>
+copyright: (c) 2017 Shao Cheng
+license: BSD3
+github: TerrorJack/haskell-dev-utils
+
+extra-source-files:
+  - LICENSE
+  - README.md
+  - CHANGELOG.md
+
+ghc-options: -Wall
+
+dependencies:
+  - async
+  - base
+  - extra
+  - filepath
+  - megaparsec
+  - text
+  - unordered-containers
+
+library:
+  source-dirs: src
